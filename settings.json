@@ -1,14 +1,14 @@
 {
   "bot-account": {
-    "username": "bot",
+    "username": "MoonBotAfk",
     "password": "",
     "type": "mojang"
   },
 
   "server": {
-    "ip": "localhost",
-    "port": 25565,
-    "version": "1.17.1"
+    "ip": "46.4.71.235",
+    "port": 26443,
+    "version": "1.16.5"
   },
 
   "position": {
@@ -20,30 +20,40 @@
 
   "utils": {
     "auto-auth": {
-      "enabled": false,
-      "password": "12345678"
+      "enabled": true,
+      "password": "Abcdef123456"
     },
 
     "anti-afk": {
-      "enabled": false,
-      "sneak": false
+      "enabled": true,
+      "sneak": true
     },
 
     "chat-messages": {
-      "enabled": false,
+      "enabled": true,
       "repeat": true,
-      "repeat-delay": 60,
+      "repeat-delay": 250, 
 
       "messages": [
-        "I'm a regular player ",
-        "My owner is urFate_ ",
-        "I want be alone ",
-        "Visit my GitHub page! (urFate/Afk-Bot)"
+        "Tôi là một người chơi bờ rồ",
+        "My owner is phuthanh2020",
+        "tôi muốn bú liếm đồ :Đ",
+        "sẽ gầy",
+        "thằng admin hay đi xem sẽ",
+        "bruh dẢk lmao",
+        "susssss",
+        "sussy baka",
+        "hêllo fan MU",
+        "technoblade never die",
+        "dream is best speedruner",
+        "phuthanh2020 thích xem hen",
+        "bủh lỏd lmao sú đảk",
+        "bủh bủh bủh bủh bủh"
       ]
     },
 
-    "chat-log": true,
-    "auto-reconnect": false,
-    "auto-reconnect-delay": 5000
+    "chat-log": false,
+    "auto-reconnect": true,
+    "auto-recconect-delay": 1000
   }
 }
