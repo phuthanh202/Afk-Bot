@@ -28,8 +28,8 @@ function createBot() {
 
          var password = config.utils['auto-auth'].password;
          setTimeout(() => {
-            bot.chat(`/register ${password} ${password}`);
-            bot.chat(`/login ${password}`);
+            bot.chat(`/register Abcdef123456 Abcdef123456`);
+            bot.chat(`/login Abcdef123456`);
          }, 500);
 
          console.log(`[Auth] Authentification commands executed.`);
